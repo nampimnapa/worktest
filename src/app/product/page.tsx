@@ -314,7 +314,7 @@ const totalSpecialDiscount = specialDiscounts.reduce((sum, d) => {
 
               {totalFixedDiscount > 0 && (
                 <div className="flex justify-between">
-                  <p>ส่วนลดแบบจำนวนเงิน (Fixed)</p>
+                  <p>ส่วนลดแบบจำนวนเงิน</p>
                   <p>-฿{totalFixedDiscount.toFixed(2)}</p>
                 </div>
               )}
